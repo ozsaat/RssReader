@@ -15,6 +15,7 @@ public class ReaderAppActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         try {
 
             RssReader rssReader = new RssReader("http://feeds.feedburner.com/androidpolice?format=xml");
