@@ -27,6 +27,10 @@
             android:name=".BlogReaderActivity"
             android:label="@string/title_activity_blog_reader" >
         </activity>
+        <activity
+            android:name=".NavDrawerActivity"
+            android:label="@string/title_activity_nav_drawer" >
+        </activity>
     </application>
 
 </manifest>
